@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pratyasha Singh</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+    scroll-behavior:smooth;
+}
+
+section{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.page1{
+    background:linear-gradient(135deg,#ff758c,#7b61ff);
+    color:white;
+    text-align:center;
+}
+
+.page2{
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.profile-pic{
+    width:280px;
+    height:280px;
+    border-radius:20px;
+    object-fit:cover;
+    border:5px solid white;
+    box-shadow:0 0 30px rgba(255,255,255,0.4);
+    margin-bottom:20px;
+}
+
+.username{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.insta{
+    font-size:22px;
+    opacity:0.9;
+}
+
+.scroll{
+    margin-top:25px;
+    font-size:20px;
+    animation:bounce 1.5s infinite;
+}
+
+@keyframes bounce{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(10px);}
+}
+</style>
+</head>
+<body>
+
+<section class="page1">
+    <img src="profile.jpg" class="profile-pic" alt="Profile">
+
+    <div class="username">Pratyasha Singh</div>
+    <div class="insta">@pratyashasingh_</div>
+
+    <div class="scroll">⬇ Scroll Down ⬇</div>
+</section>
+
+<section class="page2">
+    <h1>Contact</h1>
+    <br>
+    <h2>@pratyashasingh_</h2>
+</section>
+
+</body>
+</html>
