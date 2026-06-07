@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pratyasha Singh</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+    scroll-behavior:smooth;
+}
+
+section{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.page1{
+    background:linear-gradient(135deg,#ff6b9d,#8b5cf6);
+    color:white;
+}
+
+.page2{
+    background:#111;
+    color:white;
+}
+
+.profile-pic{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    margin-bottom:20px;
+    box-shadow:0 0 25px rgba(255,255,255,0.4);
+}
+
+h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:22px;
+}
+
+.scroll{
+    margin-top:30px;
+    font-size:20px;
+    animation:bounce 1.5s infinite;
+}
+
+@keyframes bounce{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(10px);}
+}
+</style>
+</head>
+<body>
+
+<section class="page1">
+    <img src="download.jpg" alt="Profile Photo" class="profile-pic">
+
+    <h1>Pratyasha Singh</h1>
+    <p>@pratyashasingh_</p>
+
+    <div class="scroll">⬇ Scroll Down ⬇</div>
+</section>
+
+<section class="page2">
+    <h1>Contact</h1>
+    <p>Username: @pratyashasingh_</p>
+</section>
+
+</body>
+</html>
